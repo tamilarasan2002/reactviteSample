@@ -29,7 +29,8 @@ app.get('/', (req, res) => {
   console.log('data');
   res.send('Hello Otha!');
   res.send('Hello World!');
-  res.send("Hellooooooooo")
+  res.send("Hellooooooooo");
+  res.send('Naanthanda Leo');
 });
 
 app.listen(3000, () => {
