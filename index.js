@@ -29,6 +29,7 @@ app.get('/', (req, res) => {
   console.log('data');
   res.send('Hello Otha!');
   res.send('Hello World!');
+  res.send("Hellooooooooo")
 });
 
 app.listen(3000, () => {
